@@ -1,0 +1,11 @@
+@import '../../../node_modules/bulma/bulma.sass';
+
+.is-fixed {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+
+}
+.is-gray {
+  background: #EEEEEE;
+}

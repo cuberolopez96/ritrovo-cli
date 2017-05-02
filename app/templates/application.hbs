@@ -1,5 +1,27 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
 
-{{outlet}}
+<link rel="stylesheet" href="/assets/css/style.css">
+<nav class="nav has-shadow ">
+  <div class="nav-left">
+    <div class="nav-item">
+        <a href="addEvento" class="fa fa-plus"></a>
+    </div>
+  </div>
+  <div class="nav-right">
+    <div class="nav-item">
+      <a href="profile"> <i class="fa fa-user-circle-o"></i></a>
+    </div>
+  </div>
+</nav>
+<div class="">
+  {{outlet}}
+</div>
+<nav class="nav  is-gray is-fixed">
+  <div class="nav-left">
+    <a href="Explorar" class="nav-item fa fa-globe"></a>
+  </div>
+  <div class="nav-right">
+    <a href="Explorar" class="nav-item fa fa-user-o"></a>
+  </div>
+
+</nav>
+<script src="https://use.fontawesome.com/329cfc2c89.js"></script>
